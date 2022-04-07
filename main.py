@@ -12,3 +12,6 @@ class Cars:
 class Garage:
     def __init__(self, cars):
         self.cars = cars
+
+park1 = Garage(Cars("big", "Johnny"))
+park1.cars.park()
