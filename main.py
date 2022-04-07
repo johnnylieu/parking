@@ -7,4 +7,8 @@ class Cars:
     
     def park(self):
         for i in range(len(available_parking)):
-            print(available_parking)
+            print(available_parking[i])
+
+class Garage:
+    def __init__(self, cars):
+        self.cars = cars
