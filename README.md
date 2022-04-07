@@ -13,3 +13,5 @@ If vehicle size is not small, medium, or large, return False.
 ## Future Updates
 
 Will add function for when user leaves the garage.
+
+Will add a function for reservations.
