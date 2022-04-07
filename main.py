@@ -28,7 +28,7 @@ class Garage:
         self.cars = cars
 
 park1 = Garage(Cars("small", "Robert")) # can park
-park2 = Garage(Cars("small", "Steve"))# can park
+park2 = Garage(Cars("big", "Steve"))# can park
 park3 = Garage(Cars("medium", "Brian"))# can park
 park4 = Garage(Cars("medium", "Brian"))# can't park, garage is full
 park1.cars.park()
