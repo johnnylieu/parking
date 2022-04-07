@@ -1,0 +1,1 @@
+available_parking = ["small", "big", "medium"]
