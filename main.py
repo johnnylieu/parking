@@ -9,7 +9,7 @@ class Cars:
         for i in range(len(available_parking)):
             # print(f"available_parking: {available_parking}") # works
             # print(f"i: {i}")
-            
+
             if self.carSize != "small" and self.carSize != "medium" and self.carSize != "big":
                 # print(f"i: {i}")
                 # print(f"available_parking[i]: {available_parking[i]}")
@@ -38,7 +38,7 @@ if __name__=="__main__":
     park2 = Garage(Cars("small", "Steve"))# can park
     park3 = Garage(Cars("medium", "Brian"))# can park
     park4 = Garage(Cars("medium", "Scott"))# can't park, garage is full
-    park5 = Garage(Cars("large", "Johnny"))# can't park, garage is full
+    park5 = Garage(Cars("large", "Johnny"))# can't park, garage does not large space
 
     park5.cars.park()
     park1.cars.park()
