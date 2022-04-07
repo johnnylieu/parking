@@ -8,4 +8,8 @@ If garage is full, return False.
 
 If vehicle size is not small, medium, or large, return False.
 
-![output](https://raw.githubusercontent.com/johnnylieu/parking/main/output.bmp "CLI output")
+![output](https://raw.githubusercontent.com/johnnylieu/parking/main/output2.bmp "CLI output")
+
+## Future Updates
+
+Will add function for when user leaves the garage.
