@@ -14,6 +14,10 @@ class Cars:
                 # print(available_parking)
                 print(f"{self.owner} just parked their {self.carSize} vehicle")
                 return True
+            
+            if available_parking[i] != self.carSize:
+                print(f"There is no room for your {self.carSize} vehicle")
+                return False
 
         if len(available_parking) == 0:
             print(f"Sorry {self.owner}, the garage is full")
@@ -24,7 +28,7 @@ class Garage:
         self.cars = cars
 
 park1 = Garage(Cars("small", "Robert")) # can park
-park2 = Garage(Cars("big", "Steve"))# can park
+park2 = Garage(Cars("small", "Steve"))# can park
 park3 = Garage(Cars("medium", "Brian"))# can park
 park4 = Garage(Cars("medium", "Brian"))# can't park, garage is full
 park1.cars.park()
