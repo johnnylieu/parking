@@ -7,7 +7,12 @@ class Cars:
     
     def park(self):
         for i in range(len(available_parking)):
-            print(available_parking[i])
+            # print(available_parking) # works
+            if available_parking[i] == self.carSize:
+                print(available_parking[i])
+                available_parking.remove(available_parking[i])
+                print(available_parking)
+                return True
 
 class Garage:
     def __init__(self, cars):
